@@ -1,0 +1,9 @@
+[build]
+dockerfile = "Dockerfile"
+
+[env]
+TOKEN = "তোমার_টেলিগ্রাম_বট_টোকেন"
+
+[storage]
+name = "aadhaar_db"
+mountPath = "/app/data"
