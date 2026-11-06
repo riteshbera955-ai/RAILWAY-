@@ -22,7 +22,6 @@ COPY . .
 
 RUN pip install --no-cache-dir python-telegram-bot==13.30 PyPDF2 pdf2image Pillow opencv-python numpy pytesseract
 
-VOLUME /app/data
 ENV DATA_DIR=/app/data/
 
 CMD ["python", "aadhaar_bot.py"]
